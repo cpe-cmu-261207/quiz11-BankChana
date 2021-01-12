@@ -17,11 +17,11 @@ document.querySelector('#form').addEventListener('submit',function(event){
         var tblBody = document.createElement("tbody");
       
         // cells creation
-        for (var j = 0; j <= 2; j++) {
+        for (var j = 0; j <= 5; j++) {
           // table row creation
           var row = document.createElement("tr");
       
-          for (var i = 0; i < 2; i++) {
+          for (var i = 0; i < 5; i++) {
             // create element <td> and text node 
             //Make text node the contents of <td> element
             // put <td> at end of the table row
